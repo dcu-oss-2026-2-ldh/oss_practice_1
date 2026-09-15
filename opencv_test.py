@@ -34,7 +34,7 @@ def main():
     cv2.imwrite(str(output_dir / "blurred.jpg"), blurred)
     cv2.imwrite(str(output_dir / "edges.jpg"), edges)
 
-    print("이미지 처리가 완료되었습니다.")
+    print("complete")
     print("output/gray.jpg")
     print("output/blurred.jpg")
     print("output/edges.jpg")
